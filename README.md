@@ -55,17 +55,17 @@ npm install
 node server.js
  
 # Expected output:
-# 🚀 Server running on http://localhost:5000
-# ✅ MongoDB connected
+ 🚀 Server running on http://localhost:5000
+ ✅ MongoDB connected
 
 Terminal 2 — Start the Frontend
 cd C:\Projects\hospital-dsl\generated\frontend
 npm install
 npm run dev
  
-# Expected output:
-# VITE v5.x.x  ready in 500ms
-# ➡  Local:   http://localhost:5173/
+ Expected output:
+ VITE v5.x.x  ready in 500ms
+ ➡  Local:   http://localhost:5173/
 
 Open in Browser
 http://localhost:5173
