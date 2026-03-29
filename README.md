@@ -25,6 +25,11 @@ Navigate to the grammar folder and regenerate the parser files:
 cd src\grammar
 java -jar C:\antlr\antlr-4.13.1-complete.jar -Dlanguage=JavaScript -visitor -o ..\parser HospitalDSL.g4
 cd ..\..
+
+
+#  Input File
+   examples/sunflower-hospital.dsl
+   Define the modules required, their functions and other necessary details according to the grammar defined in src/grammar/HospitalDSL.g4
 #  In root folder run the following commands to validate the code and generate the app
 #  node cli.js validate examples/sunflower-clinic.hospital  
 #  node cli.js generate examples/sunflower-clinic.hospital
